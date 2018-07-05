@@ -3,6 +3,10 @@ import os
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import pandas as pd
+
+df1 = pd.read_csv("datafiles/SampleCSV.csv")
+print(df1)
 
 
 app = dash.Dash(__name__)
